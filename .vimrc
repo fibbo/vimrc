@@ -18,4 +18,5 @@ syntax on
 au BufRead,BufNewFile *.pbs         set filetype=sh
 :map <F7> :tabp<CR>
 :map <F8> :tabn<CR>
-:map <F9> :tabe 
+:map <F9> :tabe
+:map <F2> <Esc>:w<CR>
